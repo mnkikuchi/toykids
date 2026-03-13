@@ -39,7 +39,7 @@ export function UnitCard({ unit, className }: UnitCardProps) {
             ) : (
               <a
                 href={`tel:${unit.phone}`}
-                className="text-text-medium hover:text-coral-medium transition-colors"
+                className="text-text-medium hover:text-blue-medium transition-colors"
               >
                 {unit.phone}
               </a>

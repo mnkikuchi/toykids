@@ -31,7 +31,7 @@ export function SectionTitle({
       )}
       <div
         className={cn(
-          'mt-4 h-1 w-16 rounded-full bg-coral-soft/40',
+          'mt-4 h-1 w-16 rounded-full bg-yellow-soft',
           align === 'center' && 'mx-auto'
         )}
         aria-hidden="true"

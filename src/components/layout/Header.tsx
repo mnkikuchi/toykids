@@ -16,7 +16,7 @@ export function Header() {
   const location = useLocation()
 
   return (
-    <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur-md border-b border-cream-dark/50">
+    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-cream-dark/50 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <Link
@@ -24,12 +24,11 @@ export function Header() {
             className="flex items-center gap-2 group"
             aria-label="Toy Kids – Página inicial"
           >
-            <span className="text-2xl" role="img" aria-hidden="true">
-              🧸
-            </span>
-            <span className="font-display font-bold text-xl sm:text-2xl text-text-dark group-hover:text-coral-medium transition-colors">
-              Toy Kids
-            </span>
+            <img
+              src="/logo.svg"
+              alt="Toy Kids"
+              className="h-10 sm:h-12 w-auto"
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-1" aria-label="Menu principal">
@@ -40,8 +39,8 @@ export function Header() {
                 className={cn(
                   'px-4 py-2 rounded-full text-sm font-medium transition-all duration-200',
                   location.pathname === link.to
-                    ? 'bg-blue-soft/30 text-blue-medium'
-                    : 'text-text-medium hover:text-text-dark hover:bg-cream-dark/50'
+                    ? 'bg-coral-soft/10 text-coral-soft font-semibold'
+                    : 'text-text-medium hover:text-coral-soft hover:bg-cream-dark/50'
                 )}
               >
                 {link.label}
@@ -51,7 +50,7 @@ export function Header() {
 
           <button
             type="button"
-            className="md:hidden p-2 rounded-lg text-text-medium hover:text-text-dark hover:bg-cream-dark/50 transition-colors"
+            className="md:hidden p-2 rounded-lg text-text-medium hover:text-coral-soft hover:bg-cream-dark/50 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
             aria-expanded={isOpen}
             aria-label={isOpen ? 'Fechar menu' : 'Abrir menu'}
@@ -74,8 +73,8 @@ export function Header() {
                   className={cn(
                     'px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200',
                     location.pathname === link.to
-                      ? 'bg-blue-soft/30 text-blue-medium'
-                      : 'text-text-medium hover:text-text-dark hover:bg-cream-dark/50'
+                      ? 'bg-coral-soft/10 text-coral-soft font-semibold'
+                      : 'text-text-medium hover:text-coral-soft hover:bg-cream-dark/50'
                   )}
                 >
                   {link.label}

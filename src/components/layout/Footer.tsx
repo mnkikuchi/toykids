@@ -12,12 +12,11 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
           <div className="sm:col-span-2 lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4 group">
-              <span className="text-2xl" role="img" aria-hidden="true">
-                🧸
-              </span>
-              <span className="font-display font-bold text-xl text-cream group-hover:text-coral-soft transition-colors">
-                Toy Kids
-              </span>
+              <img
+                src="/logo.svg"
+                alt="Toy Kids"
+                className="h-10 w-auto brightness-110"
+              />
             </Link>
             <p className="text-sm leading-relaxed text-cream/60">
               {siteContent.footer.text}
@@ -39,7 +38,7 @@ export function Footer() {
                 <li key={link.to}>
                   <Link
                     to={link.to}
-                    className="text-sm text-cream/60 hover:text-coral-soft transition-colors"
+                    className="text-sm text-cream/60 hover:text-yellow-soft transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -67,7 +66,7 @@ export function Footer() {
               href={contactConfig.instagram.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-cream/60 hover:text-coral-soft transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-cream/60 hover:text-yellow-soft transition-colors"
               aria-label="Instagram da Toy Kids"
             >
               <Instagram size={18} />

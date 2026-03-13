@@ -24,7 +24,7 @@ export function ContactInfoCard({
         className
       )}
     >
-      <div className="shrink-0 w-10 h-10 rounded-xl bg-blue-soft/15 text-blue-medium flex items-center justify-center">
+      <div className="shrink-0 w-10 h-10 rounded-xl bg-coral-soft/10 text-coral-soft flex items-center justify-center">
         {icon}
       </div>
       <div>
@@ -38,7 +38,7 @@ export function ContactInfoCard({
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-text-dark hover:text-coral-medium transition-colors"
+            className="text-sm text-text-dark hover:text-blue-medium transition-colors"
           >
             {value}
           </a>

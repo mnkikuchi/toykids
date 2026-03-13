@@ -21,13 +21,13 @@ const iconMap: Record<string, LucideIcon> = {
 }
 
 const colorVariants = [
-  'bg-blue-soft/15 text-blue-medium',
-  'bg-coral-soft/15 text-coral-medium',
-  'bg-mint/15 text-mint-dark',
+  'bg-blue-soft/20 text-blue-medium',
+  'bg-yellow-soft/20 text-yellow-soft',
+  'bg-mint/20 text-mint-dark',
   'bg-lavender/15 text-lavender',
-  'bg-yellow-soft/15 text-yellow-soft',
-  'bg-coral-soft/15 text-coral-medium',
-  'bg-blue-soft/15 text-blue-medium',
+  'bg-coral-soft/10 text-coral-soft',
+  'bg-blue-soft/20 text-blue-medium',
+  'bg-yellow-soft/20 text-yellow-soft',
 ]
 
 interface CategoryCardProps {

@@ -22,17 +22,17 @@ export function HomePage() {
       </Helmet>
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-soft/10 via-cream to-coral-soft/8 py-20 sm:py-28 lg:py-36">
+      <section className="relative overflow-hidden bg-gradient-to-br from-coral-soft/5 via-cream to-blue-soft/10 py-20 sm:py-28 lg:py-36">
         <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-          <div className="absolute top-10 left-10 w-24 h-24 rounded-full bg-yellow-soft/20 blur-2xl" />
-          <div className="absolute top-40 right-20 w-40 h-40 rounded-full bg-lavender/15 blur-3xl" />
+          <div className="absolute top-10 left-10 w-24 h-24 rounded-full bg-yellow-soft/25 blur-2xl" />
+          <div className="absolute top-40 right-20 w-40 h-40 rounded-full bg-blue-soft/20 blur-3xl" />
           <div className="absolute bottom-10 left-1/3 w-56 h-56 rounded-full bg-mint/10 blur-3xl" />
-          <div className="absolute -bottom-20 -right-10 w-72 h-72 rounded-full bg-coral-soft/10 blur-3xl" />
+          <div className="absolute -bottom-20 -right-10 w-72 h-72 rounded-full bg-yellow-soft/15 blur-3xl" />
         </div>
 
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-yellow-light/60 border border-yellow-soft/30 text-sm text-text-medium mb-8">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-yellow-light/80 border border-yellow-soft/40 text-sm text-text-dark font-medium mb-8">
               <Sparkles size={14} className="text-yellow-soft" />
               {siteContent.brand.highlight}
             </div>
@@ -104,7 +104,7 @@ export function HomePage() {
       </section>
 
       {/* Presença regional */}
-      <section className="py-16 sm:py-24 bg-gradient-to-br from-blue-soft/8 to-mint/8">
+      <section className="py-16 sm:py-24 bg-gradient-to-br from-coral-soft/5 to-blue-soft/8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <SectionTitle
             title={home.units.title}
@@ -116,7 +116,7 @@ export function HomePage() {
                 key={unit.id}
                 className="bg-white rounded-2xl p-6 sm:p-8 border border-cream-dark/20 shadow-sm hover:shadow-md transition-all duration-300 text-center hover:-translate-y-1"
               >
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-coral-soft/15 text-coral-medium mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-yellow-soft/20 text-yellow-soft mb-4">
                   <MapPin size={22} />
                 </div>
                 <h3 className="font-display font-bold text-lg text-text-dark mb-2">
@@ -137,8 +137,8 @@ export function HomePage() {
       {/* Contato rápido */}
       <section className="py-16 sm:py-24 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="bg-gradient-to-br from-lavender-light/30 to-blue-soft/15 rounded-3xl p-8 sm:p-12 lg:p-16 text-center border border-lavender/15">
-            <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-yellow-light/60 text-yellow-soft mb-6">
+          <div className="bg-gradient-to-br from-coral-soft/8 to-blue-soft/10 rounded-3xl p-8 sm:p-12 lg:p-16 text-center border border-coral-soft/10">
+            <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-yellow-soft/25 text-yellow-soft mb-6">
               <Star size={28} />
             </div>
             <h2 className="font-display font-bold text-2xl sm:text-3xl lg:text-4xl text-text-dark mb-4">

@@ -29,8 +29,8 @@ export function UnitsPage() {
             ))}
           </div>
 
-          <div className="mt-10 flex items-center gap-3 p-4 rounded-xl bg-blue-soft/10 border border-blue-soft/20 text-sm text-text-medium">
-            <Info size={18} className="text-blue-medium shrink-0" />
+          <div className="mt-10 flex items-center gap-3 p-4 rounded-xl bg-yellow-light/50 border border-yellow-soft/30 text-sm text-text-medium">
+            <Info size={18} className="text-yellow-soft shrink-0" />
             <span>
               Recomendamos confirmar horário de atendimento antes da visita.
             </span>

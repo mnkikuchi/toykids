@@ -101,7 +101,7 @@ export function ContactForm() {
           htmlFor="contact-name"
           className="block text-sm font-medium text-text-dark mb-1.5"
         >
-          Nome <span className="text-coral-soft">*</span>
+          Nome <span className="text-lavender">*</span>
         </label>
         <input
           id="contact-name"
@@ -123,7 +123,7 @@ export function ContactForm() {
           htmlFor="contact-email"
           className="block text-sm font-medium text-text-dark mb-1.5"
         >
-          E-mail <span className="text-coral-soft">*</span>
+          E-mail <span className="text-lavender">*</span>
         </label>
         <input
           id="contact-email"
@@ -164,7 +164,7 @@ export function ContactForm() {
           htmlFor="contact-message"
           className="block text-sm font-medium text-text-dark mb-1.5"
         >
-          Mensagem <span className="text-coral-soft">*</span>
+          Mensagem <span className="text-lavender">*</span>
         </label>
         <textarea
           id="contact-message"

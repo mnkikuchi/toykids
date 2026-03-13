@@ -34,7 +34,7 @@ export function AboutPage() {
             ))}
           </div>
 
-          <div className="mt-12 p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-yellow-light/40 to-coral-soft/10 border border-yellow-soft/20 text-center">
+          <div className="mt-12 p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-yellow-light/60 to-blue-soft/15 border border-yellow-soft/30 text-center">
             <p className="font-display font-semibold text-lg sm:text-xl text-text-dark">
               "{siteContent.brand.highlight}"
             </p>
