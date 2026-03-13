@@ -13,9 +13,9 @@ export function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4 group">
               <img
-                src="/logo.svg"
+                src="/logo.png"
                 alt="Toy Kids"
-                className="h-10 w-auto brightness-110"
+                className="h-12 w-auto brightness-110"
               />
             </Link>
             <p className="text-sm leading-relaxed text-cream/60">

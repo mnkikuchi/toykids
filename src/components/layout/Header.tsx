@@ -25,9 +25,9 @@ export function Header() {
             aria-label="Toy Kids – Página inicial"
           >
             <img
-              src="/logo.svg"
+              src="/logo.png"
               alt="Toy Kids"
-              className="h-10 sm:h-12 w-auto"
+              className="h-12 sm:h-14 w-auto"
             />
           </Link>
 

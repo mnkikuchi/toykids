@@ -1,22 +1,22 @@
 @import "tailwindcss";
 
 @theme {
-  /* Brand palette — inspired by the Toy Kids logo */
-  --color-cream: #FEFCF5;
-  --color-cream-dark: #EDE7D4;
-  --color-blue-soft: #A3CFF0;
-  --color-blue-medium: #3B7DD8;
-  --color-coral-soft: #1B5299;
-  --color-coral-medium: #0E3D7A;
-  --color-yellow-soft: #FFD200;
-  --color-yellow-light: #FFF6CC;
-  --color-mint: #43A047;
-  --color-mint-dark: #2E7D32;
-  --color-lavender: #E84C3D;
-  --color-lavender-light: #FFEBEE;
-  --color-text-dark: #1A2744;
-  --color-text-medium: #4A5568;
-  --color-text-light: #8A94A6;
+  /* Brand palette — Toy Kids */
+  --color-cream: #FFFFFF;
+  --color-cream-dark: #E8EAF0;
+  --color-blue-soft: #5BA3E6;
+  --color-blue-medium: #2563EB;
+  --color-coral-soft: #1B4F9E;
+  --color-coral-medium: #103776;
+  --color-yellow-soft: #E8A317;
+  --color-yellow-light: #FDF0D5;
+  --color-mint: #2E9D4A;
+  --color-mint-dark: #1E7A35;
+  --color-lavender: #D93025;
+  --color-lavender-light: #FEECEB;
+  --color-text-dark: #111827;
+  --color-text-medium: #4B5563;
+  --color-text-light: #9CA3AF;
 
   --font-sans: 'Inter', 'Nunito', system-ui, -apple-system, sans-serif;
   --font-display: 'Nunito', 'Inter', system-ui, sans-serif;
